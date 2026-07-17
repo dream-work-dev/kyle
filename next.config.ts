@@ -6,7 +6,6 @@ const nextConfig: NextConfig = {
   // GitHub Pages serves project sites from /<repository-name>.  The workflow
   // injects that prefix at build time; local development keeps using "/".
   output: "export",
-  distDir: ".next-build",
   basePath,
   assetPrefix: basePath || undefined,
   trailingSlash: true,

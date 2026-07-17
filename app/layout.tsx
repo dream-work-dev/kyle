@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 export const metadata: Metadata = {
@@ -12,9 +11,9 @@ export const metadata: Metadata = {
     title: "Kyle Keller | Senior Software Engineer",
     description: "Full-stack products, frontend architecture, and FinTech API integrations.",
     type: "website",
-    images: [{ url: `${basePath}/og.png`, width: 1200, height: 630, alt: "Kyle Keller — Senior Software Engineer" }],
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Kyle Keller — Senior Software Engineer" }],
   },
-  twitter: { card: "summary_large_image", images: [`${basePath}/og.png`] },
+  twitter: { card: "summary_large_image", images: ["/og.png"] },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
