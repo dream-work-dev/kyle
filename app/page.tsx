@@ -31,7 +31,7 @@ export default function Home() {
           <h1>I build software that makes <em>complex systems</em> feel clear.</h1>
           <p className="hero-copy">
             I&apos;m Kyle Keller, a Senior Software Engineer with 10+ years of experience
-            across full-stack products, frontend architecture, API integrations, and FinTech.
+            across full-stack products, system architecture, API integrations, and technical discovery.
           </p>
           <div className="hero-actions">
             <Link className="button button-primary" href="/experience">Explore experience <span>↗</span></Link>
@@ -57,12 +57,12 @@ export default function Home() {
         <section className="featured wrap">
           <div>
             <p className="kicker"><span /> Current focus</p>
-            <h2>FinTech systems, API architecture, and technical leadership.</h2>
+            <h2>FinTech systems, API architecture, and customer-facing technical solutions.</h2>
           </div>
           <p>
-            At Worth, I design integration architectures for business verification,
-            risk assessment, and underwriting workflows—working across customers,
-            product, engineering, sales, and security.
+            At Worth, I architect integrations, lead technical discovery, and build demonstrations
+            and proofs of concept for AI-powered SMB onboarding, business verification,
+            underwriting, and risk decisioning workflows.
           </p>
           <Link className="text-link" href="/experience">See the full career story <span>→</span></Link>
         </section>

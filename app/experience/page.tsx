@@ -2,28 +2,28 @@ import { Footer, Header, PageIntro } from "../site-components";
 
 const experience = [
   {
-    company: "Worth", role: "Solutions Engineer", period: "May 2024 — Present", location: "Chicago, Illinois",
-    summary: "Designing technical solutions for a FinTech platform supporting business onboarding, verification, risk assessment, and underwriting.",
-    highlights: ["API integration architecture across onboarding systems, CRMs, and loan-origination platforms", "Reusable demos and Postman collections that cut proof-of-concept preparation time by 40%", "Technical evaluations for 25+ enterprise opportunities across banking, FinTech, and lending"],
-    stack: ["REST APIs", "Webhooks", "Postman", "Authentication", "Data mapping"],
+    company: "Worth", role: "Senior Software Engineer", period: "May 2024 — Present", location: "Chicago, Illinois",
+    summary: "Architecting integrations and technical solutions for an AI-powered FinTech platform that automates SMB onboarding, business verification, underwriting, and risk decisioning.",
+    highlights: ["API integration patterns connecting customer onboarding systems, CRMs, loan-origination platforms, and internal data services", "Standardized security-review workflows that shortened the average evaluation cycle by approximately 20%", "Reusable API assets that reduced proof-of-concept preparation time by 40% across 25+ banking, FinTech, and commercial-lending evaluations"],
+    stack: ["REST APIs", "Webhooks", "Authentication", "Postman", "SQL", "Security reviews"],
   },
   {
-    company: "Cover Genius", role: "Client Solutions Engineer", period: "Feb 2022 — May 2024", location: "Remote · Chicago",
-    summary: "Led technical discovery, proofs of concept, and integration planning for a global embedded-insurance platform.",
-    highlights: ["Partner-specific demos, workshops, and proof-of-concept integration flows", "Postman collections, technical guides, and API flow documentation", "Engineering liaison across business, product, and implementation teams"],
-    stack: ["APIs", "Postman", "SQL", "BigQuery", "Kibana"],
+    company: "Cover Genius", role: "Solutions Engineer", period: "Feb 2022 — May 2024", location: "Remote · Chicago",
+    summary: "Designed technical proofs of concept, demonstrations, workshops, and integration plans for a global embedded-insurance platform.",
+    highlights: ["Translated partner use cases into API requirements, delivery plans, and implementation guidance", "Created Postman collections, implementation guides, and reusable API-flow documentation", "Investigated API and data issues with SQL, BigQuery, and Kibana and supported partners through testing and launch readiness"],
+    stack: ["REST APIs", "Postman", "SQL", "BigQuery", "Kibana", "Technical documentation"],
   },
   {
-    company: "Trimble Transport & Logistics", role: "Senior Front End Engineer", period: "Feb 2021 — Feb 2022", location: "Remote",
+    company: "Trimble Transport & Logistics", role: "Software Engineer", period: "Feb 2021 — Feb 2022", location: "Remote",
     summary: "Built and modernized a transportation-management platform handling more than one million transactions per day.",
-    highlights: ["Helped migrate a legacy Angular/NGRX monorepo to a componentized React system", "Established coding and testing standards for a greenfield microfrontend", "Presented product work to technical, stakeholder, and C-suite audiences"],
-    stack: ["React", "Angular", "TypeScript", "RxJS", "Java", "Kafka", "PostgreSQL"],
+    highlights: ["Helped modernize a legacy Angular/NGRX monorepo into a componentized React platform", "Established coding, testing, and component standards for a greenfield microfrontend architecture", "Presented biweekly product demonstrations to more than 200 stakeholders and C-suite leaders"],
+    stack: ["React", "Angular", "Redux", "NGRX", "TypeScript", "Java", "Spring Boot", "Kafka", "PostgreSQL"],
   },
   {
-    company: "Concept3D", role: "Senior Software Developer", period: "Aug 2019 — Feb 2021", location: "Greater Denver Area",
+    company: "Concept3D Inc.", role: "Senior Software Developer", period: "Aug 2019 — Feb 2021", location: "Greater Denver Area",
     summary: "Built geospatial web applications and immersive digital experiences across the full stack.",
-    highlights: ["React, Node.js, and Python applications", "Open-source contributions to mapping ecosystems", "AR/VR experiences with A-Frame and WebGL"],
-    stack: ["React", "Node.js", "Python", "AWS", "DynamoDB", "Mapbox GL"],
+    highlights: ["React, Node.js, and Python applications", "Open-source contributions to Mapbox GL and OpenStreetMap", "Immersive AR/VR experiences with A-Frame and WebGL"],
+    stack: ["React", "Redux", "Node.js", "Python", "PHP", "AWS", "DynamoDB", "Mapbox GL", "WebGL"],
   },
   {
     company: "Isobar", role: "Interactive Developer", period: "Jan 2018 — Feb 2019", location: "Greater Chicago Area",
@@ -32,7 +32,7 @@ const experience = [
     stack: ["JavaScript", "AEM", "Magento", "Accessibility"],
   },
   {
-    company: "ICF Olson", role: "Front End Engineer", period: "Aug 2015 — Dec 2017", location: "Greater Chicago Area",
+    company: "ICF Olson", role: "Front End Engineer — Associate / Analyst", period: "Aug 2015 — Dec 2017", location: "Greater Chicago Area",
     summary: "Progressed from Analyst to Associate while building enterprise web experiences for major consumer and public-sector clients.",
     highlights: ["AEM-backed web applications, landing pages, and real-time experiences", "Third-party mapping and social API integrations", "Legacy refactoring focused on accessibility and readability"],
     stack: ["JavaScript", "AEM", "Third-party APIs", "AR/VR"],
@@ -47,7 +47,7 @@ export default function ExperiencePage() {
         <PageIntro
           eyebrow="Experience"
           title="A decade of building, modernizing, and connecting software."
-          copy="From frontend systems and geospatial products to FinTech APIs and enterprise integrations, each role added a new layer to how I approach software engineering."
+          copy="From frontend and full-stack product engineering to technical discovery, proofs of concept, and enterprise integrations, each role added a new layer to how I approach complex systems."
         />
         <section className="timeline wrap">
           {experience.map((job, index) => (

@@ -14,7 +14,7 @@ export default function AboutPage() {
         <PageIntro
           eyebrow="About"
           title="Engineering depth, with a customer-facing point of view."
-          copy="My career began in frontend engineering and grew through full-stack product development, architecture, and enterprise integrations. Today I bring those perspectives together to build systems that work well—and make sense to the people using them."
+          copy="My career began in frontend engineering and grew through full-stack product development, system architecture, and enterprise integrations. Today I bring that experience into a pre-sales capacity through technical discovery, demonstrations, proofs of concept, and implementation guidance."
         />
         <section className="about-story wrap">
           <div className="story-stat">
